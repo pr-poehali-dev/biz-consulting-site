@@ -407,8 +407,8 @@ const Index = () => {
               </p>
               <div className="space-y-4">
                 {[
-                  ['Phone', '+7 918 081-16-60'],
-                  ['Phone', '+7 918 081-15-50'],
+                  ['Phone', '+7 918 081 6660'],
+                  ['Phone', '+7 918 081 5550'],
                   ['Mail', 'info@yantpp.ru'],
                   ['Globe', 'yantpp.ru'],
                 ].map(([icon, text]) => (
