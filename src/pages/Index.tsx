@@ -102,7 +102,7 @@ const Index = () => {
             <div className="w-9 h-9 rounded-full bg-navy flex items-center justify-center">
               <Icon name="Compass" className="text-sand" size={20} />
             </div>
-            <span className="font-display text-2xl font-700 tracking-tight">Меридиан</span>
+            <span className="font-display text-2xl font-700 tracking-tight">ТПП ЮАН</span>
           </button>
           <nav className="hidden lg:flex items-center gap-8">
             {NAV.map((n) => (
@@ -407,9 +407,10 @@ const Index = () => {
               </p>
               <div className="space-y-4">
                 {[
-                  ['Phone', '+7 (495) 120-45-67'],
-                  ['Mail', 'hello@meridian.ru'],
-                  ['MapPin', 'Москва, ул. Пресненская, 12'],
+                  ['Phone', '+7 918 081-16-60'],
+                  ['Phone', '+7 918 081-15-50'],
+                  ['Mail', 'info@yantpp.ru'],
+                  ['Globe', 'yantpp.ru'],
                 ].map(([icon, text]) => (
                   <div key={text} className="flex items-center gap-4">
                     <Icon name={icon} size={18} className="text-clay" />
@@ -450,9 +451,9 @@ const Index = () => {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <Icon name="Compass" size={18} className="text-clay" />
-            <span className="font-display text-xl font-600 text-sand">Меридиан</span>
+            <span className="font-display text-xl font-600 text-sand">ТПП ЮАН</span>
           </div>
-          <div className="text-sm">© 2026 Меридиан. Консалтинг для малого бизнеса.</div>
+          <div className="text-sm">© 2026 ТПП ЮАН. Консалтинг для малого бизнеса.</div>
         </div>
       </footer>
     </div>
